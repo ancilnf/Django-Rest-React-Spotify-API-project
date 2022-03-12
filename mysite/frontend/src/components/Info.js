@@ -21,7 +21,7 @@ const Info = (props) => {
                 Welcome
               </Typography> */}
               <FormHelperText>
-              <div align="center">This app helps live stream your music to everyone who joins your Room.</div>
+              <div align="center">The app helps live stream your music to everyone who joins your Room.</div>
             </FormHelperText>
             <Box xs={12} sx={{ mx: "auto", p:2 }}>
               <Typography variant="h6" style={{ backgroundColor: "#F5F5F5", borderRadius: "5px", padding: "6px" }} >

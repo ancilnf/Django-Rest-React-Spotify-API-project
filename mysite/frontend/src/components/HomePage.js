@@ -22,9 +22,11 @@ useEffect(()=> {
 const renderHomePage=() =>{
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12} align="center">
-        <Typography variant='h3' component='h3'>
-          Music Controller
+      <Grid item xs={12} align="center" sx={{p:0}} >
+        <Typography variant='h6'>
+          <div className='musicControllerText'>
+              Music Controller
+          </div>
         </Typography>
       </Grid>
 
